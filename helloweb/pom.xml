@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <!--用来说明当前项目的pom文件遵循哪一个pom模型的版本-->
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.learnMaven</groupId>
+  <artifactId>helloweb</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <!--war jar(默认值) ear pom(表示当前标签是一个父项目)-->
+  <packaging>pom</packaging>
+
+  <name>helloweb</name>
+
+  <!--用于说明子项目的模块-->
+  <modules>
+    <module>helloweb-core</module>
+    <module>helloweb-entity</module>
+    <module>helloweb-parent</module>
+    <module>helloweb-web</module>
+  </modules>
+
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloweb-core" />
+        <module name="helloweb-entity" />
+        <module name="helloweb-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="helloweb" target="1.5" />
+      <module name="helloweb-core" target="1.7" />
+      <module name="helloweb-entity" target="1.7" />
+      <module name="helloweb-parent" target="1.5" />
+      <module name="helloweb-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/helloweb.iml" filepath="$PROJECT_DIR$/helloweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloweb-core/helloweb-core.iml" filepath="$PROJECT_DIR$/helloweb-core/helloweb-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloweb-entity/helloweb-entity.iml" filepath="$PROJECT_DIR$/helloweb-entity/helloweb-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloweb-parent/helloweb-parent.iml" filepath="$PROJECT_DIR$/helloweb-parent/helloweb-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloweb-web/helloweb-web.iml" filepath="$PROJECT_DIR$/helloweb-web/helloweb-web.iml" />
+    </modules>
+  </component>
+</project>

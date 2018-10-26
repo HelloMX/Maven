@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="helloweb-web:war exploded">
+    <output-path>$PROJECT_DIR$/helloweb-web/target/helloweb-web-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="helloweb-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="helloweb-core-1.0.jar">
+            <element id="module-output" name="helloweb-core" />
+          </element>
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.13" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="archive" name="helloweb-entity-1.0.jar">
+            <element id="module-output" name="helloweb-entity" />
+          </element>
+          <element id="library" level="project" name="Maven: junit:junit:3.8.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/helloweb-web/target/helloweb-web-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="helloweb-web/web/Web" />
+    </root>
+  </artifact>
+</component>
