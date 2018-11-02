@@ -126,20 +126,20 @@
 
 10. 多模块项目
 
-  1. 创建项目（helloweb）
+  * 创建项目（helloweb）
 
-  2. 项目中新建多个子模块的文件夹
+  * 项目中新建多个子模块的文件夹
 
      * helloweb-core
      * helloweb-entity
      * helloweb-parent
      * helloweb-web
 
-  3. 将helloweb下的src目录与pom文件拷贝至各个模块中
+  * 将helloweb下的src目录与pom文件拷贝至各个模块中
 
-  4. 删除父目录(helloweb)的src
+  * 删除父目录(helloweb)的src
 
-  5. 修改父目录的pom文件
+  * 修改父目录的pom文件
 
      ```xml
      <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -167,7 +167,7 @@
 
      ```
 
-  6. 修改单个模块中的pom文件
+  * 修改单个模块中的pom文件
 
      * helloweb-parent
 
@@ -196,7 +196,7 @@
        <name>helloweb core</name>
        ```
 
-  7. dependencyManagement
+  * dependencyManagement
 
      Maven使用dependencyManagement元素来提供一种管理依赖版本号的方式（父项目中添加dependencyManagement指定具体依赖，子项目中不需要指定具体版本号）
 
@@ -228,7 +228,7 @@
        </dependencies>
        ```
 
-  8. 使用 pluginManagement 管理插件
+  * 使用 pluginManagement 管理插件
 
      不会影响插件行为，只有子模块配置后才会
 
@@ -253,7 +253,7 @@
        </build>
        ```
 
-  9. 定义项目属性及配置信息
+  * 定义项目属性及配置信息
 
      * properties定义一些常量
 
@@ -293,7 +293,7 @@
 
        项目的起始年份
 
-  10. 完善helloweb-entity模块
+  * 完善helloweb-entity模块
 
     * 数据库
 
